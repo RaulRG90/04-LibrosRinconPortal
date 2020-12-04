@@ -1,0 +1,15 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <a [routerLink]="[ '/inicio']"><img src="/assets/img/logo-librosdelrincon.png" alt="Logo Libros del Rincón"></a>
+    </div>
+
+    <ul class="list-unstyled components">
+        <p>ALUMNOS</p>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../libros-sugeridos']">Libros sugeridos</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../caminos-lectura']">Caminos de lectura</a>
+        </li>
+    </ul>
+</nav>

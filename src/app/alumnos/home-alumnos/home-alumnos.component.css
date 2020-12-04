@@ -1,0 +1,13 @@
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #3E729B;
+
+} 
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    padding: 1.25rem;
+    height: 6rem; }

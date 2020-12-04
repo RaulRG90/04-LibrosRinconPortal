@@ -1,0 +1,21 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <a [routerLink]="[ '/inicio']"><img src="/assets/img/logo-librosdelrincon.png" alt="Logo Libros del Rincón"></a>
+    </div>
+
+    <ul class="list-unstyled components">
+        <p>ARCHIVO HISTÓRICO</p>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../convocatorias']">Convocatorias</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../sobre-libro']">Sobre el libro y la lectura</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../estrategias-lectura']">Estrategias de lectura y escritura</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../mediateca']">Mediateca</a>
+        </li>
+    </ul>
+</nav>

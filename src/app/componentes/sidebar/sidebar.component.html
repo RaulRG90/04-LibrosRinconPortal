@@ -1,0 +1,37 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <a [routerLink]="[ '/inicio']"><img src="/assets/img/logo-librosdelrincon.png" alt="Logo Libros del Rincón"></a>
+    </div>
+
+    <ul class="list-unstyled components">
+        <a [routerLink]="['/acervos']"><p>COLECCIÓN BE Y BA</p></a>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../sobre-coleccion']">Sobre la colección <br>Libros del Rincón</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../acervos-be-ba']">Acervos para la Biblioteca Escolar y de Aula</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../series']">Series</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../categorias']">Categorías</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../titulos-monolingues']">Títulos monolingües</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../titulos-bilingues']">Títulos bilingües</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../produccion-estatal']">Títulos de producción estatal</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../catalogos-seleccion']">Catálogos de selección</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../catalogo-historico']">Catálogo histórico</a>
+        </li>
+
+    </ul>
+</nav>

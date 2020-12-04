@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    #menusm {
+        display: none;
+    }
+}
+
+li.nav-item:hover {
+background-color: #943e27;
+}
+
+#lib, #cat {
+    margin-bottom: 0px !important;
+}
+
+
+div#lin {
+    margin-top: -0.5em!important;
+}
+

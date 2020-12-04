@@ -1,0 +1,21 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <a [routerLink]="[ '/inicio']"><img src="/assets/img/logo-librosdelrincon.png" alt="Logo Libros del Rincón"></a>
+    </div>
+
+    <ul class="list-unstyled components">
+        <a [routerLink]="[ '/proceso']"><p>PROCESO DE SELECCIÓN</p></a>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../sobre-proceso']" routerLinkActive="active">Sobre el proceso de selección</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../ingreso-materiales']" routerLinkActive="active">Ingreso de materiales</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../preseleccion']" routerLinkActive="active">Preeselección</a>
+        </li>
+        <li routerLinkActive="active">
+            <a [routerLink]="[ '../seleccion']" routerLinkActive="active">Selección</a>
+        </li>
+    </ul>
+</nav>

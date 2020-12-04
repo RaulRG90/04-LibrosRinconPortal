@@ -1,0 +1,66 @@
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <app-sidebar-proceso></app-sidebar-proceso>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+        <button type="button" id="sidebarCollapse" class="navbar-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!--Intro-->
+        <div class="row mt-4">
+            <div class="col-md-5">
+                <h2 class="font-weight-bold">Ingreso de materiales
+                <hr class="my-4 linea1">
+                </h2>            
+            </div>
+
+            <div class="col-md-7">
+                <p class="text-justify">Es la etapa en la que los titulares de los derechos patrimoniales o sus representantes legales, registran y entregan materiales bibliográficos a la Dirección de Bibliotecas y Promoción de la Lectura, de la Dirección General de Materiales Educativos, para que sean revisados y, en su caso, seleccionados como parte de la colección Libros del Rincón.</p>
+                <p class="text-justify">Esta etapa del proceso se desarrolla de la siguiente manera:</p>
+            </div>
+            <div class="col-md-12">
+                <ol type="a">
+                    <li style="font-weight: 600;"><h6>Publicación de la convocatoria</h6></li>
+                    <p class="text-justify" style="line-height: 110%;">Con la publicación de la convocatoria, la Secretaría de Educación Pública, a través de la Dirección General de Materiales Educativos, hace un llamado a todos los titulares de los derechos patrimoniales o sus representantes legales a presentar sus propuestas de títulos para Bibliotecas Escolares y de Aula.</p>
+                    <p class="text-justify" style="line-height: 110%;">A través de la página electrónica Libros del Rincón www.librosdelrincon.sep.gob.mx, se da a conocer la convocatoria con las bases, fechas y pasos a seguir para el proceso de selección de títulos. </p>
+                </ol>
+                <ol type="a" start="2">
+                   <li style="font-weight: 600;"><h6>Acreditación de titulares o representantes editoriales</h6></li>
+                    <p class="text-justify" style="line-height: 110%;">Los titulares los derechos patrimoniales o sus representantes legales, son dados de alta en el Sistema de Captura de Información Bibliográfica (SICABI), diseñado por la Secretaría de Educación Pública. Se asigna un nombre de usuario y una contraseña que les permitirá registrar los títulos para el proceso de selección.</p>
+                </ol>
+                <ol type="a" start="3">
+                    <li style="font-weight: 600;"><h6>Registro de los títulos en soporte electrónico</h6></li>
+                    <p class="text-justify" style="line-height: 110%;">Con el número de usuario y contraseña, los titulares de los derechos patrimoniales o sus representantes legales, capturan los datos bibliográficos y técnicos de cada uno de los títulos en el Sistema de Captura de Información Bibliográfica (SICABI), para ser valorados por la Secretaría de Educación Pública.</p>
+                    <p class="text-justify" style="line-height: 110%;">El <strong>Sicabi</strong> tiene como propósito recibir, organizar, administrar y procesar la información del proceso de selección de acervos de la colección Libros del Rincón, destinados a las bibliotecas escolares y de aula de las escuelas públicas de educación básica.</p>
+                </ol>
+                <ol type="a" start="4">
+                    <li style="font-weight: 600;"><h6>Entrega de ejemplares de los títulos registrados</h6></li>
+                    <p class="text-justify" style="line-height: 110%;">Cada titular de los derechos patrimoniales o su representante legal deberá acudir a las oficinas de la Dirección General de Materiales Educativos con dos ejemplares de cada uno de los títulos registrados para el proceso de selección con la finalidad de ser revisados y valorados por un grupo lector.</p>
+                </ol>
+            </div>
+
+        </div>
+
+        <!--Contenido-->
+        <div class="row mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+                        <a role="button" href="#" class="btn btn-orange">Ver convocatoria</a>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <a [routerLink]="[ '/archivos/convocatorias']" role="button" class="btn btn-orange">Convocatorias anteriores</a>
+                    </div>
+                </div>
+            </div>
+
+
+      
+            
+        </div>
+    </div>
+</div>

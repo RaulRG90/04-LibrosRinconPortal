@@ -1,0 +1,14 @@
+body,td,th {} 
+body{padding:20px 50px;}
+.iconosHome { font-size:100px;}
+.iconosh3 { font-size:1.5em;}
+.pleca_azul { background-color:#069;}
+.pleca_verde { background-color:#063;}
+
+.regresardiv{ margin-top:100px; text-align:right;}
+h1 { font-size:32px; color:#69C;}
+h2 { font-size:24px; color:#FFF; background-color:#900; text-transform:uppercase; border-bottom:3px solid #CCC;}
+h3 { font-size:20px;}
+form { border:1px solid #D6D5D6; padding:20px; background-color:#F9F7ED;}
+
+.btndel { font-size:12px !important;}

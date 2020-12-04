@@ -1,0 +1,426 @@
+<!--Main-->
+<main>
+    <div class="container">
+
+        <!--Section: Content-->
+        <section class="dark-grey-text">
+            <!--Navbar-->
+            <nav class="navbar navbar-light" id="menusm" style="background: #c75638;">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand white-text font-weight-bold" href="#">ACCESO RÁPIDO</a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="white-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1" style="border-top: #fff 2px solid">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link white-text" [routerLink]="['/acervos']">
+                                <img src="/assets/img/acervos-min.png" width="30px;"> Colección BE y BA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" [routerLink]="['/proceso']"><img src="/assets/img/seleccion-min.png" width="30px;"> Proceso de selección</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" [routerLink]="['/alumnos']"><img src="/assets/img/alumnos-min.png" width="30px;"> Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" [routerLink]="['/docentes']"><img src="/assets/img/docentes-min.png" width="30px;"> Docentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" [routerLink]="['/archivos']"><img src="/assets/img/archivos-min.png" width="25px;"> Archivo histórico</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+                </div>
+                <!-- Collapsible content -->
+
+            </nav>
+            <!--/.Navbar-->
+
+
+            <!--Section: Main info-->
+            <div class="row my-4 d-flex justify-content-center pt-3">
+                <section class="mt-2 wow fadeIn d-none d-lg-block text-center" id="menugde">
+
+                    <div class="row wow text-center fadeIn py-2" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+                        <!-- First column -->
+                        <div class="col mx-1">
+                            <a [routerLink]="['/acervos']">
+                                <!--Panel-->
+                                <div class="card card-body grey lighten-5 hoverable">
+                                    <img src="/assets/img/icono-acervos.png" alt="Acervos" width="90px" height="90px" style="display:block;
+                                    margin:auto;">
+                                    <h6 class="feature-title font-weight-bold mt-3" style="color:#2F2F2F;">Colección <br>BE y BA</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col mx-1">
+                            <a [routerLink]="['/proceso']">
+                                <!--Panel-->
+                                <div class="card card-body grey lighten-5 hoverable">
+                                    <img src="/assets/img/icono-proceso.png" alt="" width="90px" height="90px" style="display:block;
+                    margin:auto;">
+                                    <h6 class="feature-title font-weight-bold mt-3" style="color:#2F2F2F;">Proceso de selección</h6>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col mx-1">
+                            <a [routerLink]="['/alumnos']">
+                                <div class="card card-body grey lighten-5 hoverable">
+                                    <img src="/assets/img/icono-alumnos.png" alt="" width="90px" height="90px" style="display:block;
+                    margin:auto;">
+                                    <h6 class="feature-title font-weight-bold mt-3" style="color:#2F2F2F;">Alumnos</h6><br>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col mx-1">
+                            <a [routerLink]="['/docentes']">
+                                <div class="card card-body grey lighten-5 hoverable">
+                                    <img src="/assets/img/icono-docente.png" alt="" width="90px" height="90px" style="display:block;
+                    margin:auto;">
+                                    <h6 class="feature-title font-weight-bold mt-3" style="color:#2F2F2F;">Docentes</h6><br>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col mx-1">
+                            <a [routerLink]="[ '/archivos' ]">
+                                <div class="card card-body grey lighten-5 hoverable">
+                                    <img src="/assets/img/icono-archivos.png" alt="" width="90px" height="90px" style="display:block;
+                    margin:auto;">
+                                    <h6 class="feature-title font-weight-bold mt-3" style="color:#2F2F2F;">Archivo histórico</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Grid row -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 my-4">
+                    <h6 class="font-weight-bold" style="font-size: x-large;">CATÁLOGOS ELECTRÓNICOS</h6>
+                    <hr class="my-3 linea1">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4 dark-text text-center text-md-left">
+                    <!--Image-->
+                    <div class=" overlay rounded z-depth-1-half mb-2 my-4">
+                        <a href="/catalogo/" target="_parent">
+                            <img src="/assets/img/catalogo.jpg" class="img-fluid" alt="Colección Libros del Rincón"></a>
+                        <div class="mask rgba-white-slight"></div>
+                    </div>
+                    <!--Excerpt-->
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 mb-4 daark-text text-center text-md-left">
+
+                    <!--Image-->
+                    <div class="overlay rounded z-depth-1-half mb-3 my-4">
+                        <a href="/BAM/" target="_parent">
+                            <img src="/assets/img/biblioteca.jpg" class="img-fluid" alt="Biblioteca de Actualización del Maestro"></a>
+                        <div class="mask rgba-white-slight"></div>
+                    </div>
+                    <!--Excerpt-->
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+
+            <!--Section: Content-->
+
+
+
+            <div class="container">
+
+
+                <!--Section: Main info-->
+
+
+                <!--Section: Main features & Quick Start-->
+                <section>
+                    <div class="row">
+                        <div id="lib" class="col-md-12 my-4">
+                            <h6 class="font-weight-bold" style="font-size: x-large;">LIBROS SUGERIDOS DEL MES DE {{mesActual}}</h6>
+                        </div>
+                        <div id="lin" class="col-lg-6 my-4">
+                            <hr class="linea1">
+                        </div>
+                    </div>
+                    <!--Carousel Wrapper-->
+                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+                        <!--Controls-->
+                        <div class="controls-top">
+                            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left" style="background-color: #e65100;"></i></a>
+                            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right" style="background-color: #e65100;"></i></a>
+                        </div>
+                        <!--/.Controls-->
+
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+
+                            <!--First slide-->
+                            <div class="carousel-item active">
+
+                                <div class="row">
+                                    <div *ngFor="let p of portada;let i=index;" class="col-md-3 clearfix d-none d-md-block">
+                                        <div *ngIf="i<4" class="card card-cascade mb-3">
+                                            <div class="view-cascade overlay" (click)="openModal(p.id)">
+                                                <img class="img-fluid" src="{{ p.img }}" alt="Card image cap">
+                                                <a data-toggle="modal" (click)="openModal(p.id)">
+                                                    <div class="mask rgba-white-slight"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!--/.First slide-->
+
+                            <!--Second slide-->
+                            <div *ngIf="portada?.length >4" class="carousel-item">
+
+                                <div class="row">
+                                    <div *ngFor="let p of portada;let z=index;" class="col-md-3">
+                                        <div *ngIf="z>3 && z<8" class="card card-cascade mb-3">
+                                            <div class="view-cascade overlay" (click)="openModal(p.id)">
+                                                <img class="card-img-top" src="{{ p.img }}" alt="Card image cap">
+                                                <a data-toggle="modal" (click)="openModal(p.id)">
+                                                    <div class="mask rgba-white-slight"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--/.Second slide-->
+
+                            <!--tree slide-->
+                            <div *ngIf="portada?.length >8" class="carousel-item">
+
+                                <div class="row">
+                                    <div *ngFor="let p of portada;let z=index;" class="col-md-3">
+                                        <div *ngIf="z>7 && z<12" class="card card-cascade mb-3">
+                                            <div class="view-cascade overlay" (click)="openModal(p.id)">
+                                                <img class="card-img-top" src="{{ p.img }}" alt="Card image cap">
+                                                <a data-toggle="modal" (click)="openModal(p.id)">
+                                                    <div class="mask rgba-white-slight"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--/.tree slide-->
+                        </div>
+
+
+                        <!--/.Slides-->
+
+                    </div>
+                    <!--/.Carousel Wrapper-->
+
+                </section>
+                <!--Section: Main features & Quick Start-->
+
+                <!--Section: Not enough-->
+                <section>
+
+                    <div class="container my-6">
+
+                        <!--Section: Content-->
+                        <section class="magazine-section dark-grey-text">
+
+                            <!-- Grid row -->
+                            <div class="row">
+                                <!-- Grid column -->
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <h6 class="font-weight-bold" style="font-size: x-large;">BIBLIOTECAS ESCOLARES</h6>
+                                    <hr class="my-3 linea1">
+                                    <!-- Featured news -->
+                                    <div class="single-news">
+                                        <!-- Image -->
+                                        <div class="overlay rounded z-depth-1-half mb-4">
+                                            <a href="/assets/pdf/00-Index/Practicas_Sociales_en_la_Biblioteca_Escolar.pdf" target="_blank">
+                                                <img class="img-fluid" src="/assets/img/practicas-sociales-be.jpg" alt="Prácticas sociales en las bibliotecas escolares">
+                                                <a>
+                                                    <div class="mask rgba-white-slight"></div>
+                                                </a>
+                                            </a>
+                                        </div>
+                                        <!-- Image -->
+                                        <div class="overlay rounded z-depth-1-half mb-4">
+                                            <a href="/assets/pdf/00-Index/LR-ORIENTACIONES-BE-BA-BAJA.pdf" target="_blank">
+                                                <img class="img-fluid" src="/assets/img/bibliotecas-escolares.jpg" alt="Orientaciones para el uso y aprovechamiento de acervos de bibliotecas escolares y de aula">
+                                                <a>
+                                                    <div class="mask rgba-white-slight"></div>
+                                                </a>
+                                            </a>
+                                        </div>
+                                        <!-- Image -->
+                                    </div>
+                                    <!-- Featured news -->
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <h6 class="font-weight-bold" style="font-size: x-large;">NOTICIAS DE INTERÉS</h6>
+                                    <hr class="my-3 linea1">
+                                    <!-- Small news -->
+                                    <div *ngFor="let n of noticia" class="single-news mb-4">
+                                        <!-- Grid row -->
+                                        <div class="row">
+                                            <!-- Grid column -->
+                                            <div class="col-md-12">
+                                                <!-- Excerpt -->
+                                                <p class="font-weight-bold dark-grey-text">{{ n.titulo }}</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="col-11 text-truncate pl-0 mb-3">
+                                                        <a href="{{ n.noticia_url }}" target="blank_" class="dark-grey-text">{{ n.fecha }}</a>
+                                                    </div>
+                                                    <a href="{{ n.noticia_url }}" target="blank_"><i class="fas fa-angle-double-right deep-orange-text"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+                                        </div>
+                                        <!-- Grid row -->
+                                    </div>
+                                    <!-- Small news -->
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!-- Grid row -->
+                        </section>
+                        <!--Section: Content-->
+                    </div>
+                </section>
+                <!--Section: Not enough-->
+
+
+
+                <!--Section: More-->
+                <section>
+                    <div class="container my-5">
+
+                        <section class="text-center py-5">
+
+
+                            <!-- Logo carousel -->
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1800">
+                                <div class="carousel-inner">
+                                    <!-- First slide -->
+                                    <div class="carousel-item active">
+                                        <!--Grid row-->
+                                        <div class="row">
+
+                                            <!--First column-->
+                                            <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center mb-4">
+                                                <img src="/assets/img/logo-oei.png" class="img-fluid px-4" alt="Logo">
+                                            </div>
+                                            <!--/First column-->
+
+                                            <!--Second column-->
+                                            <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center mb-4">
+                                                <img src="/assets/img/logo-cultura.png" class="img-fluid px-4" alt="Logo">
+                                            </div>
+                                            <!--/Second column-->
+
+                                            <!--Third column-->
+                                            <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center mb-4">
+                                                <img src="/assets/img/logo-unesco.png" class="img-fluid px-4" alt="Logo">
+                                            </div>
+                                            <!--/Third column-->
+
+
+                                        </div>
+                                        <!--/Grid row-->
+                                    </div>
+                                    <!-- First slide -->
+
+
+                                </div>
+
+                            </div>
+                            <!-- Logo carousel -->
+
+                        </section>
+
+                    </div>
+
+                </section>
+                <!--Section: More-->
+
+                <hr class="mb-5">
+
+                <div class="container my-5 py-5">
+
+                    <!--Section: Content-->
+                    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6 mb-4 mb-md-0">
+
+                                <h3 class="font-weight-bold">Contacto</h3>
+
+                                <p class="text-muted">
+                                    <strong>Secretaría de Educación Pública</strong><br /> Av. Universidad 1200, Piso 6, Sector 6-3<br /> Xoco, Benito Juárez, 03330, CDMX<br />
+                                    <br /> Teléfono: (55) 3600 2500 Ext. 66738 y 66718<br /> Horario de Atención de 09:00 a 18:00 horas.
+                                </p>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6 mb-4 mb-md-0 text-center">
+
+                                <!--Image-->
+                                <div class="">
+                                    <img src="/assets/img/logo-librosdelrincon.png" class="img-fluid" alt="">
+                                    <a href="#">
+                                        <div class="mask rgba-white-light"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+
+                    </section>
+                    <!--Section: Content-->
+
+
+                </div>
+
+            </div>
